@@ -15,6 +15,6 @@ terraform {
 
 # Provider Block
 provider "aws" {
-  region = "${var.aws-region}"
+  region = "ap-south-1"
 }
 
